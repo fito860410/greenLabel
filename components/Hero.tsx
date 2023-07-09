@@ -15,18 +15,15 @@ const Hero = () => {
     <div className='hero'>
       <div className='flex-1 pt-36 padding-x'>
         <h1 className='hero__title'>
-          Encuentra un producto - Así de fácil
+          Encuentra un coche - Así de fácil
         </h1>
 
         <p className='hero__subtitle'>
-          Mérida es muy grande, busca en línea el producto que deseas
+          Encuentra el auto que más se ajuste a tus necesidades
         </p>
 
         <CustomButton 
-          title="Busque productos"
-          btnType='button'
-          containerStyles="bg-primary-blue
-          text-white rounded-full mt-10"
+          title="Busque productos" btnType='button' containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handlerClick={handleScroll}
         />
         <div className='hero__image-container'>
